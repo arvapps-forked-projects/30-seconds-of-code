@@ -922,9 +922,6 @@
 - from: /js/s/pad
   to: /js/s/pad-string
   status: 301!
-- from: /js/s/frozen-set
-  to: /js/s/freeze-set-object
-  status: 301!
 - from: /js/s/prefix
   to: /js/s/prefix-css-property
   status: 301!
@@ -1173,12 +1170,6 @@
   status: 301!
 - from: /js/s/insert-at
   to: /js/s/insert-value-at-array-index
-  status: 301!
-- from: /js/s/all-equal
-  to: /js/s/array-element-equality
-  status: 301!
-- from: /js/s/all-equal-by
-  to: /js/s/function-based-array-element-equality
   status: 301!
 - from: /js/s/index-by
   to: /js/s/function-based-array-indexing
@@ -2598,4 +2589,25 @@
   status: 301!
 - from: /js/s/http-delete
   to: /js/s/http-get-post-put-delete
+  status: 301!
+- from: /js/s/to-ordinal-suffix
+  to: /js/s/number-to-ordinal-suffix
+  status: 301!
+- from: /js/s/all-equal
+  to: /js/s/all-values-of-array-are-equal
+  status: 301!
+- from: /js/s/array-element-equality
+  to: /js/s/all-values-of-array-are-equal
+  status: 301!
+- from: /js/s/all-equal-by
+  to: /js/s/all-values-of-array-are-equal
+  status: 301!
+- from: /js/s/function-based-array-element-equality
+  to: /js/s/all-values-of-array-are-equal
+  status: 301!
+- from: /js/s/frozen-set
+  to: /js/s/freeze-set-or-map
+  status: 301!
+- from: /js/s/freeze-set-object
+  to: /js/s/freeze-set-or-map
   status: 301!
