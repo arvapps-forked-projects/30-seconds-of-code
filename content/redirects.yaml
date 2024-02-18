@@ -994,9 +994,6 @@
 - from: /js/s/most-frequent
   to: /js/s/most-frequent-array-element
   status: 301!
-- from: /js/s/round
-  to: /js/s/round-number-to-precision
-  status: 301!
 - from: /js/s/pretty-bytes
   to: /js/s/pretty-print-number-of-bytes
   status: 301!
@@ -1042,15 +1039,6 @@
 - from: /js/s/in-range
   to: /js/s/number-in-range
   status: 301!
-- from: /js/s/to-currency
-  to: /js/s/number-to-currency
-  status: 301!
-- from: /js/s/to-decimal-mark
-  to: /js/s/number-to-decimal-mark
-  status: 301!
-- from: /js/s/to-optional-fixed
-  to: /js/s/number-to-optional-fixed
-  status: 301!
 - from: /js/s/toggle-element
   to: /js/s/toggle-array-element
   status: 301!
@@ -1071,12 +1059,6 @@
   status: 301!
 - from: /js/s/offset
   to: /js/s/offset-array-elements
-  status: 301!
-- from: /js/s/closest
-  to: /js/s/closest-numeric-match
-  status: 301!
-- from: /js/s/converge
-  to: /js/s/converge-branching-functions
   status: 301!
 - from: /js/s/percentile
   to: /js/s/percentile-of-matches
@@ -1138,9 +1120,6 @@
 - from: /js/s/size
   to: /js/s/size-of-array-object-or-string
   status: 301!
-- from: /js/s/reduced-filter
-  to: /js/s/filter-matching-and-unspecified-values
-  status: 301!
 - from: /js/s/sum-power
   to: /js/s/sum-powers-in-range
   status: 301!
@@ -1159,17 +1138,11 @@
 - from: /js/s/map-consecutive
   to: /js/s/map-consecutive-elements
   status: 301!
-- from: /js/s/map-num-range
-  to: /js/s/map-number-to-range
-  status: 301!
 - from: /js/s/initial
   to: /js/s/array-without-last-element
   status: 301!
 - from: /js/s/matches-with
   to: /js/s/function-based-object-property-matches
-  status: 301!
-- from: /js/s/insert-at
-  to: /js/s/insert-value-at-array-index
   status: 301!
 - from: /js/s/index-by
   to: /js/s/function-based-array-indexing
@@ -1182,9 +1155,6 @@
   status: 301!
 - from: /js/s/replace-last
   to: /js/s/replace-last-occurrence
-  status: 301!
-- from: /js/s/without
-  to: /js/s/filter-out-matching-array-elements
   status: 301!
 - from: /articles/s/8-tips-for-accessible-websites
   to: /html/s/8-tips-for-accessible-websites
@@ -2590,9 +2560,6 @@
 - from: /js/s/http-delete
   to: /js/s/http-get-post-put-delete
   status: 301!
-- from: /js/s/to-ordinal-suffix
-  to: /js/s/number-to-ordinal-suffix
-  status: 301!
 - from: /js/s/all-equal
   to: /js/s/all-values-of-array-are-equal
   status: 301!
@@ -2610,4 +2577,64 @@
   status: 301!
 - from: /js/s/freeze-set-object
   to: /js/s/freeze-set-or-map
+  status: 301!
+- from: /js/s/last-date-of-month
+  to: /js/s/first-last-date-of-month
+  status: 301!
+- from: /js/s/to-ordinal-suffix
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/format-duration
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/format-number
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/format-seconds
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/to-currency
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/number-to-currency
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/to-decimal-mark
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/number-to-decimal-mark
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/to-optional-fixed
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/number-to-optional-fixed
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/round
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/round-number-to-precision
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/pad-number
+  to: /js/s/number-formatting
+  status: 301!
+- from: /js/s/arithmetic-progression
+  to: /js/s/arithmetic-and-geometric-progression
+  status: 301!
+- from: /js/s/geometric-progression
+  to: /js/s/arithmetic-and-geometric-progression
+  status: 301!
+- from: /js/s/map-num-range
+  to: /js/s/clamp-or-map-number-to-range
+  status: 301!
+- from: /js/s/map-number-to-range
+  to: /js/s/clamp-or-map-number-to-range
+  status: 301!
+- from: /js/s/clamp-number
+  to: /js/s/clamp-or-map-number-to-range
+  status: 301!
+- from: /js/s/to-safe-integer
+  to: /js/s/clamp-or-map-number-to-range
   status: 301!
