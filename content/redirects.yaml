@@ -2303,16 +2303,16 @@
   to: /js/s/sort-array-of-objects
   status: 301!
 - from: /js/s/order-by
-  to: js/s/sort-array-of-objects
+  to: /js/s/sort-array-of-objects
   status: 301!
 - from: /js/s/order-object-array
-  to: js/s/sort-array-of-objects
+  to: /js/s/sort-array-of-objects
   status: 301!
 - from: /js/s/order-with
-  to: js/s/sort-array-of-objects
+  to: /js/s/sort-array-of-objects
   status: 301!
 - from: /js/s/order-object-array-based-on-property
-  to: js/s/sort-array-of-objects
+  to: /js/s/sort-array-of-objects
   status: 301!
 - from: /js/s/for-own
   to: /js/s/iterate-object-properties
@@ -2688,4 +2688,34 @@
   status: 301!
 - from: /js/s/get-style
   to: /js/s/get-set-add-styles-to-html-element
+  status: 301!
+- from: /js/s/hex-to-rgb
+  to: /js/s/rgb-hex-hsl-hsb-color-format-conversion
+  status: 301!
+- from: /js/s/rgb-to-hex
+  to: /js/s/rgb-hex-hsl-hsb-color-format-conversion
+  status: 301!
+- from: /js/s/hsl-to-rgb
+  to: /js/s/rgb-hex-hsl-hsb-color-format-conversion
+  status: 301!
+- from: /js/s/rgb-to-hsl
+  to: /js/s/rgb-hex-hsl-hsb-color-format-conversion
+  status: 301!
+- from: /js/s/hsl-to-hsb
+  to: /js/s/rgb-hex-hsl-hsb-color-format-conversion
+  status: 301!
+- from: /js/s/hsb-to-hsl
+  to: /js/s/rgb-hex-hsl-hsb-color-format-conversion
+  status: 301!
+- from: /js/s/to-rgb-array
+  to: /js/s/rgb-to-array-or-object
+  status: 301!
+- from: /js/s/to-rgb-object
+  to: /js/s/rgb-to-array-or-object
+  status: 301!
+- from: /js/s/to-hsl-array
+  to: /js/s/hsl-to-array-or-object
+  status: 301!
+- from: /js/s/to-hsl-object
+  to: /js/s/hsl-to-array-or-object
   status: 301!
