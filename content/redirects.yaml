@@ -1000,12 +1000,6 @@
 - from: /js/s/slugify
   to: /js/s/string-to-slug
   status: 301!
-- from: /js/s/sample-size
-  to: /js/s/multiple-array-samples
-  status: 301!
-- from: /js/s/sample
-  to: /js/s/array-sample
-  status: 301!
 - from: /js/s/url-join
   to: /js/s/join-url-segments
   status: 301!
@@ -2718,4 +2712,34 @@
   status: 301!
 - from: /js/s/to-hsl-object
   to: /js/s/hsl-to-array-or-object
+  status: 301!
+- from: /js/s/colorize
+  to: /js/s/color-console-output
+  status: 301!
+- from: /js/s/sample-size
+  to: /js/s/array-sample-shuffle-weighted-selection
+  status: 301!
+- from: /js/s/multiple-array-samples
+  to: /js/s/array-sample-shuffle-weighted-selection
+  status: 301!
+- from: /js/s/sample
+  to: /js/s/array-sample-shuffle-weighted-selection
+  status: 301!
+- from: /js/s/array-sample
+  to: /js/s/array-sample-shuffle-weighted-selection
+  status: 301!
+- from: /js/s/weighted-sample
+  to: /js/s/array-sample-shuffle-weighted-selection
+  status: 301!
+- from: /js/s/shuffle
+  to: /js/s/array-sample-shuffle-weighted-selection
+  status: 301!
+- from: /js/s/random-gauss
+  to: /js/s/random-number-or-integer-in-range
+  status: 301!
+- from: /js/s/random-integer-in-range
+  to: /js/s/random-number-or-integer-in-range
+  status: 301!
+- from: /js/s/random-number-in-range
+  to: /js/s/random-number-or-integer-in-range
   status: 301!
