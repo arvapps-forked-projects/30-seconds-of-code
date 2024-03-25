@@ -889,9 +889,6 @@
 - from: /js/s/remove-event-listener-all
   to: /js/s/remove-multiple-event-listeners
   status: 301!
-- from: /js/s/accumulate
-  to: /js/s/partial-sum-array
-  status: 301!
 - from: /js/s/create-dir-if-not-exists
   to: /js/s/create-directory-if-not-exists
   status: 301!
@@ -939,9 +936,6 @@
   status: 301!
 - from: /js/s/words
   to: /js/s/string-to-words
-  status: 301!
-- from: /js/s/x-prod
-  to: /js/s/cross-product-of-arrays
   status: 301!
 - from: /js/s/throttle
   to: /js/s/throttle-function
@@ -1045,9 +1039,6 @@
 - from: /js/s/equals
   to: /js/s/deep-equality-comparison
   status: 301!
-- from: /js/s/matches
-  to: /js/s/match-object-properties
-  status: 301!
 - from: /js/s/size
   to: /js/s/size-of-array-object-or-string
   status: 301!
@@ -1069,14 +1060,8 @@
 - from: /js/s/initial
   to: /js/s/array-without-last-element
   status: 301!
-- from: /js/s/matches-with
-  to: /js/s/function-based-object-property-matches
-  status: 301!
 - from: /js/s/index-by
   to: /js/s/function-based-array-indexing
-  status: 301!
-- from: /js/s/reduce-successive
-  to: /js/s/successive-values-array
   status: 301!
 - from: /js/s/replace-last
   to: /js/s/replace-last-occurrence
@@ -2766,4 +2751,34 @@
   status: 301!
 - from: /js/s/merge
   to: /js/s/merge-objects
+  status: 301!
+- from: /js/s/is-alpha
+  to: /js/s/is-alpha-numeric
+  status: 301!
+- from: /js/s/accumulate
+  to: /js/s/partial-sum-array
+  status: 301!
+- from: /js/s/reduce-successive
+  to: /js/s/partial-sum-array
+  status: 301!
+- from: /js/s/successive-values-array
+  to: /js/s/partial-sum-array
+  status: 301!
+- from: /js/s/matches
+  to: /js/s/match-object-properties
+  status: 301!
+- from: /js/s/matches-with
+  to: /js/s/match-object-properties
+  status: 301!
+- from: /js/s/function-based-object-property-matches
+  to: /js/s/match-object-properties
+  status: 301!
+- from: /js/s/x-prod
+  to: /js/s/cartesian-product-of-arrays
+  status: 301!
+- from: /js/s/cross-product-of-arrays
+  to: /js/s/cartesian-product-of-arrays
+  status: 301!
+- from: /js/s/cartesian-product
+  to: /js/s/cartesian-product-of-arrays
   status: 301!
