@@ -82,7 +82,7 @@ references:
     https://git-scm.com/docs/git-config#Documentation/git-config.txt---add
   git config --get remote.origin.url: >-
     https://git-scm.com/docs/git-config#Documentation/git-config.txt---get
-  git config --global -e: >-
+  git config -e: >-
     https://git-scm.com/docs/git-config#Documentation/git-config.txt--e
   git config --global core.editor <editor-command>: >-
     https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreeditor
@@ -118,7 +118,7 @@ references:
     https://git-scm.com/docs/git-gc
   git init: >-
     https://git-scm.com/docs/git-init
-  git init [<directory>]: >-
+  git init <directory>: >-
     https://git-scm.com/docs/git-init
   git log: >-
     https://git-scm.com/docs/git-log
@@ -194,16 +194,20 @@ references:
     https://git-scm.com/docs/git-shortlog
   git stash apply: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-apply--index-q--quietltstashgt
-  git stash apply <stash>: >-
-    https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-apply--index-q--quietltstashgt
   git stash clear: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-clear
-  git stash drop <stash>: >-
+  git stash drop: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-drop-q--quietltstashgt
   git stash list: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-listltlog-optionsgt
   git stash save: >-
     https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-save-p--patch-S--staged-k--no-keep-index-u--include-untracked-a--all-q--quietltmessagegt
+  git stash push: >-
+    https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-push-p--patch-S--staged-k--no-keep-index-u--include-untracked-a--all-q--quiet-m--messageltmessagegt--pathspec-from-fileltfilegt--pathspec-file-nul--ltpathspecgt82308203
+  git stash pop: >-
+    https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-pop--index-q--quietltstashgt
+  git stash show: >-
+    https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-show-u--include-untracked--only-untrackedltdiff-optionsgtltstashgt
   git status: >-
     https://git-scm.com/docs/git-status
   git submodule add <upstream-path> <local-path>: >-
