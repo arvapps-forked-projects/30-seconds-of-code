@@ -24,3 +24,5 @@ segmenter
 Luhn
 powerset
 pathspec
+unstaged
+fileglob
