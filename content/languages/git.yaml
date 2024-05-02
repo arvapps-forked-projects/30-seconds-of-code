@@ -114,6 +114,8 @@ references:
     https://git-scm.com/docs/git-fetch
   git filter-branch --force --index-filter <command> --prune-empty --tag-name-filter cat -- --all: >-
     https://git-scm.com/docs/git-filter-branch
+  git fsck: >-
+    https://git-scm.com/docs/git-fsck
   git fsck --lost-found: >-
     https://git-scm.com/docs/git-fsck
   git gc --prune=now --aggressive: >-
@@ -148,7 +150,7 @@ references:
     https://git-scm.com/docs/git-push#Documentation/git-push.txt--d
   git push -f: >-
     https://git-scm.com/docs/git-push#Documentation/git-push.txt--f
-  git push <remote> --force -all: >-
+  git push <remote> --force --all: >-
     https://git-scm.com/docs/git-push#Documentation/git-push.txt---force
   git push origin --delete <old-name>: >-
     https://git-scm.com/docs/git-push#Documentation/git-push.txt---delete
@@ -224,5 +226,9 @@ references:
     https://git-scm.com/docs/git-submodule#Documentation/git-submodule.txt-update--init--remote-N--no-fetch--no-recommend-shallow-f--force--checkout--rebase--merge--referenceltrepositorygt--depthltdepthgt--recursive--jobsltngt--no-single-branch--filterltfilterspecgt--ltpathgt82308203
   git switch <branch>: >-
     https://git-scm.com/docs/git-switch
+  git switch -: >-
+    https://git-scm.com/docs/git-switch
   git mv <old-submodule> <new-submodule>: >-
     https://git-scm.com/docs/git-mv
+  git checkout --orphan <branch>: >-
+    https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt---orphanltnew-branchgt

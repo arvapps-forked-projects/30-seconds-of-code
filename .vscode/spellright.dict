@@ -26,3 +26,5 @@ powerset
 pathspec
 unstaged
 fileglob
+fixup
+autosquashed
