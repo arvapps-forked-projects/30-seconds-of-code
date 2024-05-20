@@ -1489,6 +1489,9 @@
 - from: /js/s/distance-between-two-points
   to: /js/s/euclidean-distance
   status: 301!
+- from: /js/s/vector-distance
+  to: /js/s/euclidean-distance
+  status: 301!
 - from: /js/s/find-key
   to: /js/s/find-matching-keys
   status: 301!
@@ -2916,4 +2919,7 @@
   status: 301!
 - from: /js/s/count-substrings
   to: /js/s/count-occurences
+  status: 301!
+- from: /js/s/validate-number
+  to: /js/s/number-validation
   status: 301!
