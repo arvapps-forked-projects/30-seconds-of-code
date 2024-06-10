@@ -295,9 +295,6 @@
 - from: /articles/s/javascript-copy-array
   to: /js/s/copy-array
   status: 301!
-- from: /articles/s/javascript-deep-freeze-object
-  to: /js/s/deep-freeze-object
-  status: 301!
 - from: /articles/s/javascript-destructuring-assignment
   to: /js/s/destructuring-assignment
   status: 301!
@@ -594,9 +591,6 @@
   status: 301!
 - from: /articles/s/js-native-data-structures
   to: /js/s/native-data-structures
-  status: 301!
-- from: /articles/s/js-object-freeze-vs-seal
-  to: /js/s/object-freeze-vs-seal
   status: 301!
 - from: /articles/s/js-proxy-array-negative-index
   to: /js/s/proxy-array-negative-index
@@ -913,8 +907,11 @@
 - from: /js/s/get-cmd-args
   to: /js/s/command-line-arguments
   status: 301!
-- from: /js/s/jso-nto-csv
-  to: /js/s/json-to-csv
+- from: /js/s/has-flags
+  to: /js/s/command-line-arguments
+  status: 301!
+- from: /js/s/process-arguments-have-flags
+  to: /js/s/command-line-arguments
   status: 301!
 - from: /js/s/nest
   to: /js/s/nest-objects
@@ -948,9 +945,6 @@
   status: 301!
 - from: /js/s/pretty-bytes
   to: /js/s/pretty-print-number-of-bytes
-  status: 301!
-- from: /js/s/has-flags
-  to: /js/s/process-arguments-have-flags
   status: 301!
 - from: /js/s/have-same-contents
   to: /js/s/arrays-have-same-contents
@@ -1023,9 +1017,6 @@
   status: 301!
 - from: /js/s/equals
   to: /js/s/deep-equality-comparison
-  status: 301!
-- from: /js/s/size
-  to: /js/s/size-of-array-object-or-string
   status: 301!
 - from: /js/s/sum-power
   to: /js/s/sum-powers-in-range
@@ -1388,6 +1379,9 @@
   to: /js/s/complete-guide-to-js-type-checking
   status: 301!
 - from: /js/s/is-object
+  to: /js/s/complete-guide-to-js-type-checking
+  status: 301!
+- from: /js/s/is-plain-object
   to: /js/s/complete-guide-to-js-type-checking
   status: 301!
 - from: /js/s/is-primitive
@@ -2479,12 +2473,6 @@
 - from: /js/s/function-based-array-element-equality
   to: /js/s/all-values-of-array-are-equal
   status: 301!
-- from: /js/s/frozen-set
-  to: /js/s/freeze-set-or-map
-  status: 301!
-- from: /js/s/freeze-set-object
-  to: /js/s/freeze-set-or-map
-  status: 301!
 - from: /js/s/last-date-of-month
   to: /js/s/first-last-date-of-month
   status: 301!
@@ -2928,4 +2916,43 @@
   status: 301!
 - from: /js/s/day-name
   to: /js/s/weekday-name
+  status: 301!
+- from: /js/s/jso-nto-csv
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/json-to-csv
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/array-to-csv
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/csv-to-json
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/csv-to-array
+  to: /js/s/convert-csv-to-array-object-or-json
+  status: 301!
+- from: /js/s/pluralize
+  to: /js/s/pluralize-string
+  status: 301!
+- from: /articles/s/js-object-freeze-vs-seal
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/object-freeze-vs-seal
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /articles/s/javascript-deep-freeze-object
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/deep-freeze
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/frozen-set
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/freeze-set-object
+  to: /js/s/deep-freeze-object
+  status: 301!
+- from: /js/s/freeze-set-or-map
+  to: /js/s/deep-freeze-object
   status: 301!
